@@ -56,7 +56,7 @@ public class BitmapLoadUtils {
         // Raw height and width of image
         int inSampleSize = 1;
         if ((width == 0 && height == 0) || (width == reqWidth && height == reqHeight)) {
-            return inSampleSize * 2;
+            return inSampleSize * 1;
         }
         if (height > reqHeight || width > reqWidth) {
             // Calculate the largest inSampleSize value that is a power of 2 and keeps both
